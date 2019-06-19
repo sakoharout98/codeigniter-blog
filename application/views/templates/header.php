@@ -24,13 +24,13 @@
                 <ul class="d-flex justify-content-between">
                     <li class="nav-item">
 
-                        <a class="nav-link disabled" href="#">HOMEPAGE</a>
+                        <a class="nav-link " href="#">HOMEPAGE</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link disabled" href="#">ABOUT ME</a>
+                        <a class="nav-link " href="#">ABOUT ME</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">CONTACT</a>
+                        <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">CONTACT</a>
                     </li>
                 </ul>
 
@@ -40,13 +40,13 @@
             <div class="end">
                 <ul class="d-flex justify-content-between">
                     <li class="nav-item">
-                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">REGISTER</a>
+                        <a class="nav-link" href="register">REGISTER</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">LOGIN</a>
+                        <a class="nav-link " href="login" tabindex="-1" aria-disabled="true">LOGIN</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">MY PROFILE</a>
+                        <a class="nav-link " href="profile" tabindex="-1" aria-disabled="true">MY PROFILE</a>
                     </li>
                 </ul>
             </div>
