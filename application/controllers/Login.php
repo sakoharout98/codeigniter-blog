@@ -3,12 +3,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Login extends CI_Controller {
 
+    public function index()
+    {
+        $data = array(
+            "title" => "Login | codeIgniter Blog"
+        );
 
-	public function index()
-	{
-		$this->load->view('templates/header');
-		$this->load->view('login/index');
-        $this->load->view('templates/aside');
-        $this->load->view('templates/footer');
-	}
+        $this->load->view('template/header', $data);
+        $this->load->view('login/index');
+        $this->load->view('template/aside');
+        $this->load->view('template/footer');
+    }
 }
